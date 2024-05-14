@@ -1,0 +1,13 @@
+//Code Of Merge Two Arrays
+let data1 =[3,45,67,23,56,88];
+ let data2=[12,34,45,32,98,67];
+ let data3=[];
+ for(i=0;i<data1.length; i++){
+     data3[i]=data1[i]
+ }
+ for(i=0;i<data2.length; i++){
+     data3[data1.length+i]=data2[i];
+ }
+ console.log(data3);
+Output is:
+            [3, 45, 67, 23, 56,88, 12, 34, 45, 32,98, 67]
